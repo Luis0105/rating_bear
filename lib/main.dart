@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Calificación de estrellas',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Colors.blue), // Tema basado en azul
         useMaterial3: true,
       ),
-      home: const RatingScreen(),
+      home: const LoginScreen(),
     );
   }
 }
